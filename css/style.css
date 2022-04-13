@@ -14,14 +14,25 @@ main{
     height: 100vh;
 }
 
+/* ==== SIDE LEFT HEADER ====== */
+
 header{
     width: 26%;
 }
 
+header div{
+    position: fixed
+}
+
+/* ==== CONTENT MIDDLE ====== */
+
 #middle{
     width: 40%;
-    border: solid 1px gray;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
 }
+
+/* ==== RIGHT SIDE ====== */
 
 #rightSide{
     width: 34%;
