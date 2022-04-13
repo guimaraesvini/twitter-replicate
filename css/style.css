@@ -5,6 +5,12 @@
 body{
     background-color: black;
     color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 main{
@@ -30,6 +36,15 @@ main{
     width: 40%;
     border-left: solid 1px gray;
     border-right: solid 1px gray;
+}
+
+#middle header a:last-child{
+    float: right;
+}
+
+#middle .post{
+    border-bottom: 1px solid gray;
+    padding: 20px;
 }
 
 /* ==== RIGHT SIDE ====== */
