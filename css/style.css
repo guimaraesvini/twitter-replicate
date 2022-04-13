@@ -16,11 +16,11 @@ main{
 
 /* ==== SIDE LEFT HEADER ====== */
 
-header{
+#leftSide{
     width: 26%;
 }
 
-header div{
+#leftSide div{
     position: fixed
 }
 
