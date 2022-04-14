@@ -69,6 +69,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-left: 70px;
 }
 
 .icons ul li{
@@ -154,6 +155,7 @@ input::placeholder {
 .boxNews h3{
     font-weight: bold;
     font-size: 18px;
+    margin-bottom: 26px;
 }
 
 .boxNews span{
@@ -168,9 +170,14 @@ input::placeholder {
 
 .articleOne{
     display: flex;
-    margin-top: 26px;
+    margin-bottom: 26px;
 }
 
+.seeMore a{
+    color: #3d9cf0;
+    margin-top: 30px;
+    font-size: 16px;
+}
 
 
 
