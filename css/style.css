@@ -37,3 +37,40 @@ header div{
 #rightSide{
     width: 34%;
 }
+
+/* ==== LEFT SIDE ====== */
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+}
+
+.leftColumn a {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;   
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.leftColumn li {
+    padding: 10px;
+}
+
+.leftColumn button {
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(29, 155, 240);
+    border-color: rgb(29, 155, 240) ;
+    width: 13em;
+    height: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.leftColumn button:hover {
+    cursor: pointer;
+}
