@@ -22,12 +22,82 @@ main{
 
 /* ==== SIDE LEFT HEADER ====== */
 
+
+/* header{
+    width: 26%;
+    text-align: center;
+}
 #leftSide{
     width: 26%;
+    position: fixed;
+    height: 100vh;
+} */
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+}
+.leftColumn a {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;   
+    margin-right: 50px;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.leftColumn li {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.leftColumn button {
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(29, 155, 240);
+    border-color: rgb(29, 155, 240) ;
+    width: 13em;
+    height: 50px;
+    margin-right: 50px;
+    padding: 10px;
+}
+.leftColumn button:hover {
+    cursor: pointer;
 }
 
-#leftSide div{
-    position: fixed
+.userBox {
+    display: flex;
+    flex-direction: row;
+}
+.userBox span {
+    display: flex;
+    flex-direction: column;
+}
+.userEllipsis {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.userBox img {
+    margin-right: 10px;
+}
+.userBox span:first-child {
+    font-weight: 700;
+}
+.userBox span:nth-child(2){
+    color: darkgrey;
+}
+
+.leftColumn a:hover {
+    border-radius: 30px;
+    background-color: rgb(101, 101, 101);
+    padding: 10px 10px;
+}
+
+.userBox:hover {
+    border-radius: 30px;
+    background-color: rgb(101, 101, 101);
 }
 
 /* ==== CONTENT MIDDLE ====== */
