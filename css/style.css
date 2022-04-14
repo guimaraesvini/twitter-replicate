@@ -118,7 +118,6 @@ main{
 
 #middle{
     width: 40%;
-    border-right: solid 1px rgb(34, 34, 34);
     margin-top: 40px;
 }
 
@@ -131,6 +130,7 @@ main{
     padding: 22px;
     background-color: rgba(0, 0, 0, 0.65);
     backdrop-filter: blur(4px);
+    border-right: solid 1px rgb(34, 34, 34);
 }
 
 #middle header a:last-child{
@@ -139,6 +139,7 @@ main{
 
 #middle .post{
     border-bottom: 1px solid rgb(34, 34, 34);
+    border-right: solid 1px rgb(34, 34, 34);
     /* padding: 20px; */
 }
 
@@ -201,6 +202,7 @@ main{
 
 .allTweets{
     padding: 20px;
+    border-right: solid 1px rgb(34, 34, 34);
 }
 
 .photo{
@@ -218,6 +220,11 @@ main{
 #rightSide{
     width: 34%;
     padding: 20px;
+}
+
+.boxSearch{
+    position: sticky;
+    top: 10px;
 }
 
 #rightSide input{
