@@ -11,18 +11,18 @@
 <body>
     <main>
         <section id="leftSide">
-            <div class="leftColumn">
-                <ul>
-                    <i class="fa-brands fa-twitter"></i>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Explore</a></li>
-                    <li><a href="">Notifications</a></li>
-                    <li><a href="">Messages<</a></li>
-                    <li><a href="">BookMarks</a></li>
-                    <li><a href="">Lists</a></li>
-                    <li><a href="">Profile</a></li>
-                    <li><a href="">More</a></li>
-                </ul>
+            <div class="leftColumn"> 
+                    <ul>
+                        <i id="twitter" class="fab fa-twitter"></i> 
+                        <li><a href=""><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href=""><i class="fas fa-hashtag"></i> Explore</a></li>
+                        <li><a href=""><i class="fas fa-bell"></i> Notifications</a></li>
+                        <li><a href=""><i class="fas fa-envelope"></i> Messages</a></li>
+                        <li><a href=""><i class="fas fa-bookmark"></i> BookMarks</a></li>
+                        <li><a href=""><i class="fas fa-list-alt"></i> Lists</a></li>
+                        <li><a href=""><i class="fas fa-user"></i> Profile</a></li>
+                        <li><a href=""><i class="fas fa-ellipsis-h"></i> More</a></li>
+                    </ul>
                 <button>Tweet</button>
             </div>
         </section id="leftSide">
@@ -31,18 +31,98 @@
             <div class="post">
                 <header>
                     <a href="#">Home</a>
-                    <a href="#">IMG</a>
+                    <a href="#"><i class="fas fa-star-of-david"></i></a>
                 </header>
 
                 <div class="writePost">
-                    <i class="far fa-user-circle" aria-hidden="true"></i>
-                    <span>What's Happaning?</span>
+                    <img src="images/profile-photo.png" alt="Profile Photo">
+                    <span>What's Happening?</span>
+                </div>
+
+                <div class="icons">
+                    <ul>
+                        <li><i class="far fa-solid fa-image"></i></li>
+                        <li><i class="fas fa-draw-polygon"></i></li>
+                        <li><i class="far fa-calendar-minus"></i></li>
+                        <li><i class="far fa-smile"></i></li>
+                        <li><i class="far fa-solid fa-image"></i></li>
+                        <li><i class="fas fa-map-marker-alt"></i></li>
+                    </ul>
+                    <button>Tweet</button>
                 </div>
             </div>
+
+            <article class="allTweets">
+                <div class="profile">
+                    <div>
+                        <img src="images/cnn.png" alt="">
+                    </div>
+                    <div class="tweet">
+                        <span>@CNN CANADA <i class="fas fa-certificate"></i></span>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eligendi doloremque quisquam? Sed quaerat possimus nobis. Facilis inventore, cumque aliquid veniam voluptatibus id repellat doloremque excepturi.</p>                
+                    </div>
+                </div>
+    
+                <div class="photo">
+                </div>  
+            </article>
         </section>
 
         <section id="rightSide">
-            content
+            <div>
+                <input type="search" placeholder="Search Twitter">
+            </div>
+
+            <div class="boxNews">
+                <h3>What’s happening</h3>
+                <div class="articleOne">
+                    <div>
+                        <span>War in Ukraine | LIVE</span>
+                        <p>Ukrainian humanitarian corridors halted as evacuation routes deemed too dangerous.</p>
+                    </div>
+                    <div style="display: contents;">
+                        <img src="images/trudeau.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="articleOne">
+                    <div>
+                        <span>War in Ukraine | LIVE</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, quo, odit necessitatibus fugiat sunt facilis distinctio optio autem reiciendis obcaecati natus corporis itaque vel molestiae, dolor vero rem possimus aliquam?.</p>
+                    </div>
+                </div>
+
+                <div class="articleOne">
+                    <div>
+                        <span>War in Ukraine | LIVE</span>
+                        <p>Ukrainian humanitarian corridors halted as evacuation routes deemed too dangerous.</p>
+                    </div>
+                    <div style="display: contents;">
+                        <img src="images/trudeau.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="articleOne">
+                    <div>
+                        <span>War in Ukraine | LIVE</span>
+                        <p>Ukrainian humanitarian corridors halted as evacuation routes deemed too dangerous.</p>
+                    </div>
+    
+                </div>
+
+                <div class="articleOne">
+                    <div>
+                        <span>War in Ukraine | LIVE</span>
+                        <p>Ukrainian humanitarian corridors halted as evacuation routes deemed too dangerous.</p>
+                    </div>
+                    <div style="display: contents;">
+                        <img src="images/trudeau.jpeg" alt="">
+                    </div>
+                </div>
+                <span class="seeMore"><a href="#">Show more</a></span>
+            </div>
+    
         </section>
     </main>
 
