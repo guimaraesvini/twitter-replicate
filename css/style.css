@@ -219,12 +219,14 @@ main{
 
 #rightSide{
     width: 34%;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 .boxSearch{
     position: sticky;
-    top: 10px;
+    top: 0;
+    background-color: black;
+    padding-top: 6px;
 }
 
 #rightSide input{
