@@ -11,7 +11,7 @@ main{
     display: flex;
     width: 100%;
     justify-content: center;
-    height: 100vh;
+    height: auto;
 }
 
 /* ==== SIDE LEFT HEADER ====== */
