@@ -95,6 +95,9 @@ main{
     flex-direction: row;
 }
 
+.profile img{
+    border-radius: 50%;
+}
 .tweet{
     padding-left: 20px;
     padding-bottom: 20px;
@@ -151,7 +154,6 @@ input::placeholder {
 .boxNews h3{
     font-weight: bold;
     font-size: 18px;
-    padding-bottom: 20px;
 }
 
 .boxNews span{
@@ -161,10 +163,14 @@ input::placeholder {
 
 .boxNews img{
     max-width: 30%;
+    border-radius: 10px;
 }
 
 .articleOne{
     display: flex;
+    margin-top: 26px;
 }
+
+
 
 
