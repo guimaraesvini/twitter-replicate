@@ -26,80 +26,98 @@ main{
 #leftSide{
     width: 26%;
 }
+
+#leftSide section {
+    position: fixed;
+    width: 26%;
+    border-right: solid 1px rgb(34, 34, 34);
+}
  
 .leftColumn {
     display: flex;
     flex-direction: column;
-    background-color: none;
+    width: 100%;
+    height: 100vh;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding-right: 50px;
 }
 
 .leftColumn a {
     font-size: 20px;
     font-weight: 700;
     color: white;   
-    margin-right: 50px;
     text-decoration: none;
     padding: 10px 10px;
+    transition: all 0.2s ease-in-out;
 }
+
+.leftColumn a:hover {
+    border-radius: 30px;
+    background-color:rgb(34, 34, 34);
+    padding: 10px 10px;
+    transition: all 0.2s ease-in-out;
+}
+
 .leftColumn li {
-    padding: 10px;
+    padding: 5px 10px;
     display: flex;
     flex-direction: row;
 }
+
+.leftColumn i{
+    padding-right: 20px;
+}
+
 .leftColumn button {
     border-radius: 30px;
-    font-size: 15px;
+    border:none;
+    font-size: 16px;
     font-weight: 700;
     color: white;
     background-color: rgb(29, 155, 240);
-    border-color: rgb(29, 155, 240) ;
     width: 13em;
     height: 50px;
-    margin-right: 50px;
     padding: 10px;
+    transition: all 0.2s ease-in-out;
 }
 .leftColumn button:hover {
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .userBox {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .userBox span {
     display: flex;
     flex-direction: column;
 }
 .userEllipsis {
-    margin-left: 40px;
-    margin-top: 10px;
+    margin-left: 10px;
 }
 .userBox img {
     margin-right: 10px;
+    border-radius: 50%;
 }
 .userBox span:first-child {
     font-weight: 700;
 }
 .userBox span:nth-child(2){
-    color: darkgrey;
-}
-
-.leftColumn a:hover {
-    border-radius: 30px;
-    background-color: rgb(101, 101, 101);
-    padding: 10px 10px;
+    color: rgb(72, 72, 72);
 }
 
 .userBox:hover {
     border-radius: 30px;
-    background-color: rgb(101, 101, 101);
+    background-color: rgb(34, 34, 34);
 }
 
 /* ==== CONTENT MIDDLE ====== */
 
 #middle{
     width: 40%;
-    border-left: solid 1px rgb(34, 34, 34);
     border-right: solid 1px rgb(34, 34, 34);
 }
 #middle header{
@@ -185,6 +203,7 @@ main{
     background-size: cover;
     border: 1px solid rgb(34, 34, 34);
     margin-left: 70px;
+    margin-bottom: 40px;
 }
 
 /* ==== RIGHT SIDE ====== */
@@ -211,16 +230,16 @@ input::placeholder {
 
 .boxNews{
     width: 70%;
-    background-color: #202327;
+    background-color: #16181c;
     border-radius: 10px;
-    padding: 16px;
+    padding-bottom: 16px;
     line-height: 18px;
 }
 
 .boxNews h3{
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 26px;
+    padding: 20px 0 10px 20px;
 }
 
 .boxNews span{
@@ -235,13 +254,21 @@ input::placeholder {
 
 .articleOne{
     display: flex;
-    margin-bottom: 26px;
+    cursor: pointer;
+    padding: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+.articleOne:hover{
+    background-color: #1f2228;
+    transition: all 0.2s ease-in-out;
 }
 
 .seeMore a{
     color: #3d9cf0;
     margin-top: 30px;
     font-size: 16px;
+    margin: 20px;
 }
 
 
