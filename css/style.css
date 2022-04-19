@@ -165,7 +165,16 @@ main{
 
 .icons ul li{
     display: inline;
-    margin: 0 10px;
+    margin: 0 2px;
+    border-radius: 50%;
+    padding: 8px 9px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.icons ul li:hover{
+    background-color:#001424;
+    transition: all 0.4s ease-in-out;
 }
 
 .icons i{
